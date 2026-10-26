@@ -9,6 +9,23 @@
 - 单文件，`linkaudit.py` 拷走就能用
 - 只发 HEAD 请求，不下载正文
 
+<!-- ipos:install -->
+## 安装
+
+零依赖，Python 3.10+ 即可：
+
+```bash
+pip install fredrickir-linkaudit
+```
+
+装完直接用命令名调用：
+
+```bash
+linkaudit --help
+```
+
+也可以不用安装，直接把 `linkaudit.py` 拷走用——它只依赖标准库。
+
 ## 为什么需要它
 
 维护文档的人大概都遇到过：某个链接某天开始跳到首页，或者直接超时。
